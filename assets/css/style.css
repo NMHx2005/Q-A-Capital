@@ -97,7 +97,7 @@ body {
 .than input,
 .than textarea {
     width: 100%;
-    padding: 0;
+    padding: 3px 3px 3px 12px;
     margin-bottom: 20px;
     border: none;
     border-bottom: 1px solid #000;
