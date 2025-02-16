@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+* {
+    font-family: "Roboto", serif;
+}
+
+.container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 45px 80px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    object-fit: contain;
+    object-position: center center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.main-content {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: left;
+    padding: 62px 0px 39px calc((100% - 980px) * 0.5);
+}
+
+.main-content .title {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.34em;
+    font-size: 50px;
+    margin: 0;
+}
+
+.main-content .desc {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 50px 0;
+
+}
+
+.main-content p {
+    font-size: 16px;
+    margin: 0px 0px 100px 0;
+
+}
+
+@media (max-width: 768px) {
+    .main-content h1 {
+        font-size: 32px;
+    }
+
+    .main-content h2 {
+        font-size: 18px;
+    }
+
+    .main-content p {
+        font-size: 14px;
+    }
+}
+
+.than {
+    display: flex;
+    justify-content: center;
+}
+
+.than h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 780px;
+}
+
+.than input,
+.than textarea {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.than button {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-family: 'didot-w01-italic', serif;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.than button:hover {
+    background-color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'releway', serif;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
